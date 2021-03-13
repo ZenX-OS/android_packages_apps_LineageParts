@@ -75,11 +75,11 @@ public class Utilities {
     }
 
     public static String getDevice() {
-        return SystemProperties.get("ro.zenx.device", Build.PRODUCT);
+        return SystemProperties.get("ro.zeus.device", Build.PRODUCT);
     }
 
     public static String getModVersion() {
-        return SystemProperties.get("ro.zenx.version", Build.DISPLAY);
+        return SystemProperties.get("ro.zeus.version", Build.DISPLAY);
     }
 
     public static String getBuildDate() {
